@@ -4,7 +4,7 @@
   "description": "Return the last element in an array",
   "main": "index.js",
   "scripts": {
-    "test": "standard && mocha --reporter spec"
+    "test": "mocha --reporter spec"
   },
   "repository": {
     "type": "git",
@@ -26,7 +26,9 @@
   },
   "homepage": "https://github.com/ahadb/last-of-array#readme",
   "devDependencies": {
-    "standard": "*"
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2",
+    "standard": "^8.1.0"
   },
   "standard": {
     "ignore": [

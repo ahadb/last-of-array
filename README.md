@@ -43,11 +43,9 @@ Also supports the `standards` JavaScript library, configure as follows:
 ```
 
 ```javascript
-last([1,2,3,4,5]);                  // ==> returns a number
-last([['Ahad',2,3,4,5]);            // ==> returns a string
-last([[1,2e10],2,3,4,5])            // ==> returns only the last element
-last([[true, false], 'id', 1004]);  // ==> returns the last element, even if is array
-last([]);                           // ==> returns undefined, if passed empty array
+last([1,2,3,4,5]);                      // ==> returns a number, 5
+last([[1,2,3,4,5,'Ahad']);              // ==> returns a string, 'Ahad'
+last([[13,2234,32,43,5.2223,1,[2e10]])  // ==> returns only the last element, an array: 2e10
 ```
 
 ##Related Modules
