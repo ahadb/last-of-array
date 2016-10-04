@@ -50,8 +50,10 @@ last([[13,2234,32,43,5.2223,1,[2e10]])  // ==> returns only the last element, an
 
 ##Related Modules
 
-* [is-even-integer](https://github.com/ahadb/is-even-integer)
+* [node-range](https://github.com/ahadb/node-range)
 * [first-of-array](https://github.com/ahadb/first-of-array)
+* [is-even-integer](https://github.com/ahadb/is-even-integer)
+* [node-camel-case](https://github.com/ahadb/node-camel-case)
 
 ##Contributing
 
