@@ -1,17 +1,17 @@
 # last-of-array
 Return the last element in an array. Is tested.
 
-##Overview
+## Overview
 
 The module can be used when you need a function that returns the last element of an array
 
-##Installing 
+## Installing 
 
 ```javascript
 npm i last-of-array --save-dev
 ```
 
-##Usage
+## Usage
 
 Simply require the `last-of-array` module. The export function can be used in any module you desire:
 
@@ -23,11 +23,11 @@ last([['Ahad', 12, 10000], 12, 'Three', true]); // ['Ahad', 12, 10000]
 
 ```
 
-##TODO
+## TODO
 
 * add more tests
 
-##Tests
+## Tests
 
 `npm test`
 
@@ -48,11 +48,11 @@ last([[1,2,3,4,5,'Ahad']);              // ==> returns a string, 'Ahad'
 last([[13,2234,32,43,5.2223,1,[2e10]])  // ==> returns only the last element, an array: 2e10
 ```
 
-##Related Modules
+## Related Modules
 
 * [is-even-integer](https://github.com/ahadb/is-even-integer)
 * [first-of-array](https://github.com/ahadb/first-of-array)
 
-##Contributing
+## Contributing
 
 Feel free to file an issue or bug.
